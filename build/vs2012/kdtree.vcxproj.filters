@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="kdtree">
+      <UniqueIdentifier>{418DDCF5-CE1B-614F-BFF4-9661084BC7E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kdtree\include">
+      <UniqueIdentifier>{4BCB6445-BE2C-7442-8AE6-5A27F3F0EE95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kdtree\src">
+      <UniqueIdentifier>{F98C3A40-EA55-944E-862A-C0D1608F5C8E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\kdtree\include\Definitions.h">
+      <Filter>kdtree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kdtree\include\KdTree.h">
+      <Filter>kdtree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kdtree\include\KdTreeDataBase.h">
+      <Filter>kdtree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kdtree\include\KdTreeDataBaseModule.h">
+      <Filter>kdtree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kdtree\include\Obstacle.h">
+      <Filter>kdtree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\kdtree\include\Vector2.h">
+      <Filter>kdtree\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\kdtree\src\KdTree.cpp">
+      <Filter>kdtree\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\kdtree\src\KdTreeDataBase.cpp">
+      <Filter>kdtree\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\kdtree\src\KdTreeDataBaseModule.cpp">
+      <Filter>kdtree\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\kdtree\src\Obstacle.cpp">
+      <Filter>kdtree\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

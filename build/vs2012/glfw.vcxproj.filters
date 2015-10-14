@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="external">
+      <UniqueIdentifier>{84528E4E-1EEF-7A41-B1EB-896B27115CC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\glfw">
+      <UniqueIdentifier>{58B2B850-67D9-1040-B1EB-2353BEA05E6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\glfw\lib">
+      <UniqueIdentifier>{C648332A-04C3-AC44-855A-D5FAF2A038EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\glfw\lib\win32">
+      <UniqueIdentifier>{B914C2BF-B1E7-4B41-9643-0EC781038DCB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\external\glfw\lib\internal.h">
+      <Filter>external\glfw\lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\external\glfw\lib\enable.c">
+      <Filter>external\glfw\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\glfw\lib\fullscreen.c">
+      <Filter>external\glfw\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\glfw\lib\glext.c">
+      <Filter>external\glfw\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\glfw\lib\image.c">
+      <Filter>external\glfw\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\glfw\lib\init.c">
+      <Filter>external\glfw\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\glfw\lib\input.c">
+      <Filter>external\glfw\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\glfw\lib\joystick.c">
+      <Filter>external\glfw\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\glfw\lib\stream.c">
+      <Filter>external\glfw\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\glfw\lib\tga.c">
+      <Filter>external\glfw\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\glfw\lib\thread.c">
+      <Filter>external\glfw\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\glfw\lib\time.c">
+      <Filter>external\glfw\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\glfw\lib\window.c">
+      <Filter>external\glfw\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\glfw\lib\win32\win32_dllmain.c">
+      <Filter>external\glfw\lib\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\glfw\lib\win32\win32_enable.c">
+      <Filter>external\glfw\lib\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\glfw\lib\win32\win32_fullscreen.c">
+      <Filter>external\glfw\lib\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\glfw\lib\win32\win32_glext.c">
+      <Filter>external\glfw\lib\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\glfw\lib\win32\win32_init.c">
+      <Filter>external\glfw\lib\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\glfw\lib\win32\win32_joystick.c">
+      <Filter>external\glfw\lib\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\glfw\lib\win32\win32_thread.c">
+      <Filter>external\glfw\lib\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\glfw\lib\win32\win32_time.c">
+      <Filter>external\glfw\lib\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\glfw\lib\win32\win32_window.c">
+      <Filter>external\glfw\lib\win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
